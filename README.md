@@ -37,6 +37,9 @@ How to setup the project?
 
 # Future enhancements to the data pipeline
 1.Support of different types of source files.
+
 2.Add logging for each functionality of the data pipeline
+
 3.Add audit information at each stage for torubleshooting
+
 4.Make the solution deployable to AWS cloud.
