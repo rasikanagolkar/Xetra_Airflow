@@ -35,3 +35,12 @@ Python 3.9,Github,Visual Studio Code,Docker,Python packages Pandas,boto3,pyyaml,
 8.From the airflow UI trigger the 'Xetra-data-pipeline-1' dag
 
 9.Upon completion a parquet file with extracted data will be available in the target S3 folder provided in step 2.
+
+# Future enhancements to the data pipeline
+1.Support of different types of source files.
+
+2.Add logging for each functionality of the data pipeline
+
+3.Add audit information at each stage for torubleshooting
+
+4.Make the solution deployable to AWS cloud.
