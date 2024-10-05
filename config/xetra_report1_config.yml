@@ -6,7 +6,7 @@ s3:
   src_bucket: 'xetra-src-data-rn23'
   trg_endpoint_url: 'https://s3.amazonaws.com'
   trg_bucket: 'xetra-trg-data-rn23'
-  AWS_s3_conn: 'AWS_s3_conn'
+
 
 
 # Configuration specific to the source
@@ -41,12 +41,14 @@ meta:
   meta_key: 'meta-xetra/meta_file.csv'
 
 db:
-  host: 'localhost'
-  login: 'root'
-  password: 'root'
-  port: '3306'
-  database: ''
-  schema: 'transactions'
+  src_connection: 'postgres'
+  trg_connection: 'postgres'
+  #host: 'localhost'
+  #login: 'root'
+  #password: 'root'
+  #port: '3306'
+  #database: ''
+  #schema: 'transactions'
 
 # Logging configuration
 logging:
